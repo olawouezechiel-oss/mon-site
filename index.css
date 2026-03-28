@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Google Font - Playfair Display for elegant headings */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap');
+
+/* Custom font class for brand name */
+.font-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
